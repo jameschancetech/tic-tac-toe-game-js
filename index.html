@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe | James Chance</title>
+
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+
+  <style>
+    .wrapper {
+      height: 85vh;
+      width: 60vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gridarea {
+      width: 800px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      margin: 2rem;
+    }
+
+    .box {
+      min-width: 100px;
+      min-height: 200px;
+      border: 1px solid black;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="wrapper nes-container is-rounded">
+    <div class="gridarea">
+      <div class=" box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+
+      <div class="box" id="box4"></div>
+      <div class="box" id="box5"></div>
+      <div class="box" id="box6"></div>
+
+      <div class="box" id="box7"></div>
+      <div class="box" id="box8"></div>
+      <div class="box" id="box9"></div>
+
+      <i class="nes-bulbasaur"></i>
+      <i class="nes-charmander"></i>
+    </div>
+  </div>
+</body>
+
+</html>
